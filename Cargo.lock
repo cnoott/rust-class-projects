@@ -638,6 +638,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "news"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "reqwest",
+ "rust-fetch",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "object"
 version = "0.36.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -817,17 +828,6 @@ dependencies = [
  "serde_json",
  "serde_urlencoded",
  "thiserror",
-]
-
-[[package]]
-name = "rust_class_project"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "reqwest",
- "rust-fetch",
- "serde",
- "serde_json",
 ]
 
 [[package]]
